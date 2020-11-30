@@ -7,26 +7,26 @@ public class Televisao extends Produto{
 
 
 
-    public void SetPeso(double peso){
+    public void setPeso(double peso){
         this.peso = peso;
     }
 
-    public void SetTamanho(double tamanho){
+    public void setTamanho(double tamanho){
         this.tamanho = tamanho;
     }
 
-    public void SetResolucao(String resolucao){
+    public void setResolucao(String resolucao){
         this.resolucao = resolucao;
     }
 
-    public double GetPeso(double peso){
+    public double getPeso(double peso){
         return this.peso;
     }
-    public double GetTamanho(double tamanho){
+    public double getTamanho(double tamanho){
         return this.tamanho;
     }
 
-    public String GetResolucao(){
+    public String getResolucao(){
         return this.resolucao;
     }
     

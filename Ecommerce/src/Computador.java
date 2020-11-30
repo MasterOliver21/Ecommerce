@@ -4,27 +4,27 @@ public class Computador extends Produto{
     private int memoria;
     private String processador;
 
-    public void SetHd(int hd){
+    public void setHd(int hd){
         this.hd = hd;
     }
 
-    public void SetMemoria(int memoria){
+    public void setMemoria(int memoria){
         this.memoria = memoria;
     }
 
-    public void SetProcessador(String processador){
+    public void setProcessador(String processador){
         this.processador = processador;
     }
 
-    public int GetHd(){
+    public int getHd(){
         return this.hd;
     }
 
-    public int GetMemoria(){
+    public int getMemoria(){
         return this.memoria;
     }
 
-    public String GetProcessador(){
+    public String getProcessador(){
         return this.processador;
     }
 

@@ -5,26 +5,26 @@ abstract class Produto  {
     private double preco;
 
 
-    public void SetFabricante(String NomeFabricante){
+    public void setFabricante(String NomeFabricante){
         this.fabricante = NomeFabricante;
     }
 
-    public void SetNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
-    public void SetPreco(double preco){
+    public void setPreco(double preco){
         this.preco = preco;
     }
 
-    public String GetFabricante(){
+    public String getFabricante(){
         return this.fabricante;
     }
 
-    public String GetNome(){
+    public String getNome(){
         return this.nome;
     }
-    public double GetPreco(){
+    public double getPreco(){
         return this.preco;
     }
 

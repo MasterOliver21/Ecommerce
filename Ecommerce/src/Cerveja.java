@@ -3,18 +3,18 @@ public class Cerveja extends Produto {
     private double teorAlcoolico;
     private String prazoValidade;
 
-    public void SetTeorAlcoolico(double teorAlcoolico){
+    public void setTeorAlcoolico(double teorAlcoolico){
         this.teorAlcoolico = teorAlcoolico;
     }
-    public void SetPrazoValidade(String prazoValidade){
+    public void setPrazoValidade(String prazoValidade){
         this.prazoValidade = prazoValidade;
     }
 
-    public double GetTeorAlcoolico(){
+    public double getTeorAlcoolico(){
         return this.teorAlcoolico;
     }
 
-    public String GetPrazoValidade(){
+    public String getPrazoValidade(){
         return this.prazoValidade;
     }
 
