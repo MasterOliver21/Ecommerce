@@ -1,7 +1,11 @@
 public class Cerveja extends Produto {
-    
+
     private double teorAlcoolico;
     private String prazoValidade;
+
+    Cerveja(String nome, double preco){
+        super(nome, preco);
+    }
 
     public void setTeorAlcoolico(double teorAlcoolico){
         this.teorAlcoolico = teorAlcoolico;

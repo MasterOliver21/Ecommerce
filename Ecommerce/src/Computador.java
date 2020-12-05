@@ -4,6 +4,10 @@ public class Computador extends Produto{
     private int memoria;
     private String processador;
 
+    Computador(String nome, double preco){
+        super(nome, preco);
+    }
+
     public void setHd(int hd){
         this.hd = hd;
     }

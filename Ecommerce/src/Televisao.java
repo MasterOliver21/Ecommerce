@@ -5,7 +5,9 @@ public class Televisao extends Produto{
     private String resolucao;
 
 
-
+    Televisao(String nome, double preco){
+        super(nome, preco);
+    }
 
     public void setPeso(double peso){
         this.peso = peso;

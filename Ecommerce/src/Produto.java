@@ -4,6 +4,10 @@ abstract class Produto  {
     private String nome;
     private double preco;
 
+    public Produto(String nome, double preco){
+        setNome(nome);
+        setPreco(preco);
+    }
 
     public void setFabricante(String NomeFabricante){
         this.fabricante = NomeFabricante;
